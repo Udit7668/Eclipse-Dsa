@@ -1,0 +1,9 @@
+class ThrowDemo1 extends Throwable 
+{
+	public static void main(String[] args) throws ThrowDemo1 
+	{
+	  
+		  throw new ThrowDemo1();
+	 
+	}
+}

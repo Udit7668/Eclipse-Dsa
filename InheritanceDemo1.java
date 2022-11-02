@@ -1,0 +1,23 @@
+class Parent
+{
+void eat(){
+System.out.println("this is from parent class");
+}
+
+}
+class Child extends Parent
+{
+void eat(){
+System.out.println("this is from child class");
+}
+
+}
+
+class InheritanceDemo1 
+{
+	public static void main(String[] args) 
+	{
+		Child obj=new Parent();
+		obj.eat();
+	}
+}
